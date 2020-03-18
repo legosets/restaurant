@@ -1,0 +1,22 @@
+{
+    "name": "legosets/restaurant",
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "besrabasant/legocms": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Restaurant\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Restaurant\\Providers\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
